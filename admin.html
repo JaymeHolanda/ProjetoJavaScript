@@ -43,17 +43,24 @@
 
 			</header>
 
-			<form id="form"   action="/login" method="POST">
+			<div  id="idlogin">
 
-				<label for="username">Usuário:</label>
+				<h1 id="titulo" >Área de login </h1>
+				<br>
+				<br>
+				<label for=""class="itens">email:</label>
+				<br>
+				<input class="inputadmin" type="email" name="" id="email">
+				<br>
+				<br>
+				<label for=""class="itens">Senha: </label>
+				<br>
+				<input class="inputadmin" type="password" id="senha">
+				<br>
+				<br>
+				<button onclick="login();" id="buttonadmin"> Entrar </button>
 
-				<input type="text" id="username" name="username" required><br><br>
-			
-				<label for="password">Senha:</label>
-
-				<input type="password" id="password" name="password" required><br><br>
-			
-				<input  id="sub2" type="submit" value="Entrar">
+			</div>
 
 			
 		</div>

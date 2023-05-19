@@ -10,13 +10,13 @@
 	</head>
 
 
-	<body>
+	<body id="bodymensagens" onload="criarLinhasTabela()">
 
 		<script src=" jquery-3.6.4.min.js"></script>
 		<script src="funcoes.js"></script> 
 
 
-		<div id="corposite">
+		<div id="msgcorposite">
 			<header>
 				<div class="logo">
 					<img class="barco" src="imagens/barco1.png" />
@@ -41,6 +41,36 @@
 				</nav>
 						
 			</header>
+
+			<div id="Msg" class="container">
+                
+				
+				
+				<h1 id="h1msg">Lista de Mensagens Cadastradas</h2>
+                
+		
+				
+			<table border="1" id="tabela"> 
+
+
+                    <tr id="trmsg">
+
+
+
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>Mensagem</th>
+
+
+                    </tr>
+
+
+                </table>
+
+
+			</div>
+			
+		</div>
 
         
 		</div>
