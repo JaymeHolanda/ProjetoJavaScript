@@ -198,7 +198,7 @@ nav ul li{
     width: 100%;
 }
 
-/* PÁGINA CONTATO */
+/* PÁGINA CONTATO - JAYME  */
 
 input {
     min-width: 300px;
@@ -231,7 +231,7 @@ input {
 }
 
 
-/* PÁGINA ADMIN */
+/* PÁGINA ADMIN - JAYME  */
 
 #form {
     margin-top: 50px;
@@ -254,7 +254,7 @@ form{
     margin-top: 30px;
 }
 
-/* PÁGINA MENSAGENS */
+/* PÁGINA MENSAGENS  - JAYME */
 
 #bodymensagens {
    
@@ -295,7 +295,7 @@ form{
 
 }
 
-/* PÁGINA ADMIN */
+/* PÁGINA ADMIN  - JAYME */
 
 
 #idlogin {
@@ -354,6 +354,64 @@ input{
     width: 100px;
     text-align: center;
     justify-content: center;
+}
+
+/* PÁGINA DESTINOS */
+
+.imgdestinos{
+    display: block;
+    margin-left: auto;
+    margin-right:auto; 
+    width: 600px;
+    height:300px;
+    border-radius: 20px;
+
+}
+.paragrafo{
+    margin-top: 10px;
+    text-align: center;
+    margin: 30px;
+}
+.h1destinos{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* PÁGINA DE ALUGUEL - JAYME */ 
+
+.h1aluguel {
+margin-top: 40px;
+margin-bottom: 20px;
+text-align: center;
+}
+
+.h2aluguel {
+margin-top: 20px;
+margin-bottom: 20px;
+color: rgb(0, 89, 255);
+display: block;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+.imgaluguel{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
     
 
+}
+
+.paluguel{
+    color: rgb(7, 7, 7);
+    font: 400;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
